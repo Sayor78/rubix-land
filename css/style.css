@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,700&family=Ubuntu:wght@300;400;500&display=swap");
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/tab.css");
+body {
+  font-family: 'Ubuntu', serif;
+  font-size: 16px;
+  margin: 0px;
+}
+h1, h2, h3, h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+
+.list-center {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+.card-grey {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  margin: 50px 0px;
+  text-align: center;
+}
+
+tab.css
+.tab {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #191e30;
+}
+
+.tab li {
+  float: left;
+}
+
+.tab li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+
+.tab li a:hover {
+  background-color: #232d3d;
+  transform: scale(1.05);
+}
